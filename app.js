@@ -18,8 +18,7 @@ var seedDB = require('./seeds');
 // seedDB();
 // using the database with mongoose ODM
 var mongoose = require('mongoose');
-mongoose.connect('mongodb://localhost/yelp_camp',{useMongoClient:true});
-
+mongoose.connect('mongodb://leinerf:March201997@ds161584.mlab.com:61584/yelpcamp',{useMongoClient:true});
 mongoose.Promise = global.Promise;
 var Campground = require('./models/campground');
 var Comment = require('./models/comment');
