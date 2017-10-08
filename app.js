@@ -1,7 +1,7 @@
 // express object
 var express = require('express');
 var app = express();
-
+var c = 'c'
 // body parser to get content from req.body
 var bodyParser = require('body-parser');
 app.use(bodyParser.urlencoded({extended:true}));
